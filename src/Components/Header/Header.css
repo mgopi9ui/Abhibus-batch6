@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    font-size: 22px;
+    position: sticky;
+    top: 0;
+    background: #efefef;
+    color: #444444;
+    border-bottom: 1px solid #ccc;
+    /* flex-wrap: wrap; */
+}
+hr {
+    margin: 0px;
+}

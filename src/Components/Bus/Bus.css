@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+}
+.display {
+    display: flex;
+    justify-content: center;
+    font-size: 9px;
+}
+.display h1 {
+    margin-right: 12px;
+    padding: 7px 20px;
+    border-radius: 23px;
+    font-weight: 500;
+    background: #f8f8f8;
+    font-size: 20px;
+    margin-top: 18px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    font-size: 22px;
+    position: sticky;
+    top: 0;
+    background: #efefef;
+    color: #444444;
+    border-bottom: 1px solid #ccc;
+    flex-wrap: wrap;
+}
+hr {
+    margin: 0px;
+}
+
+
+
+.top-section {
+    background: url(../abibusbg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.top-section {
+    height: 350px;
+}
+.navOption a{
+    font-size: 26px;
+    text-decoration: none;
+    margin-right: 17px;
+    color: #444444;
+    display: none;
+}
+.navOption i{
+    width: 50px;
+    font-size: 23px;
+}
+
+.text-center{
+    text-align: center;
+}
+.leaving-form {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.input-form {
+    height: 40px;
+    padding-left: 12px;
+    border: 1px solid lightgrey;
+    margin: 0px;
+}
+.searchBtn {
+    background-color: #8d0001;
+    border: none;
+    height: 40px;
+    color: white;
+    border-radius: 15px;
+    width:10%;
+    margin: auto;
+    font-size: 18px;
+    
+}
+/*.searchinput{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}*/
+.offers {
+    border: 1px solid darkgray;
+    margin: 20px;
+    padding: 10px;
+}
+.offersImg {
+    display: flex;
+    overflow-x: scroll;
+    height: 150px;
+}
+.offersImg img{
+    margin-right: 12px; 
+}
+.infosection img{
+    height: 120px;
+    width: 120px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    margin: 10px;  
+}
+/* .avatar {
+    height: 120px;
+    width: 120px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    margin: 10px;
+} */
+.infosection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.avatarItem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 25px;
+}
+.chatbot {
+    right: 50px;
+    position: fixed;
+    bottom: 70px;
+}
+.chatbotImg {
+    height: 100px;
+    width: 100px;
+}
+.covidrules {
+    border: 1px solid lightgray;
+    margin: 28px;
+    padding: 10px;
+}
+.BookBusTicket{
+    border: 1px solid lightgray;
+    margin: 28px;
+    padding: 10px;
+}
+.section {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-section{
+    border: 1px solid lightgray;
+    margin: 28px;
+    padding: 10px;
+}
+
+@media only screen and (min-width:768px){
+    .leaving-form {
+        flex-direction: row;
+        text-align: center;
+    }
+    .searchinput{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .searchBtn {
+        border-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin: auto;
+    }
+}
+@media only screen and (min-width:992px){
+    .navOption a{
+        display: inline;
+       
+    }
+    .navOption i{
+        display: none;
+    }
+    .searchBtn {
+        margin: 0px;
+       
+    }
+    header{
+        justify-content: space-between;
+    }
+    
+    
+}
